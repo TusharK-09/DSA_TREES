@@ -16,7 +16,7 @@ public class InsertNode {
         }
     }
 
-    //insert function
+    //insert function to insert a node
     public static void insert(TreeNode root, int Element) {
         Queue<TreeNode> queue = new LinkedList<>();
         queue.add(root);
